@@ -5,8 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  return rand(11)
-  while x > 1
+  rand(1..11)
 end
 
 def display_card_total
